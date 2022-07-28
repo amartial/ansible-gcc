@@ -1,5 +1,6 @@
 
 gcc_enabled: yes                       # Enable module
 
-gcc_version: "-8"
-gcc_priority: 80
+gcc_version: "7"
+gcc_priority: 50
+ansible_distribution: "CentOS"

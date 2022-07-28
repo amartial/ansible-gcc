@@ -3,7 +3,7 @@
 
 - name: Include OS specific vars
   tags: gcc
-  include_vars: "{{ ansible_os_family }}.yml"
+  include_vars: "RedHat.yml"
 
 - name: gcc | Install C++ toolchain PPA
   apt_repository: repo='ppa:ubuntu-toolchain-r/test' update_cache=yes
